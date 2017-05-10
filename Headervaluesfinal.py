@@ -62,7 +62,7 @@ def main():
     #print(test)
     
     # Create a workbook and add a worksheet.
-    workbook = xlsxwriter.Workbook('Expenses03.xlsx')
+    workbook = xlsxwriter.Workbook('Expenses03.csv')
     worksheet = workbook.add_worksheet()
 
          # Add a bold format to use to highlight cells.
